@@ -1,7 +1,7 @@
 # Pregnancy Data Analysis: Infant Birth Weight Prediction
 
 ## Project Overview
-This project investigates the factors influencing infant birth weight using historical data from the San Francisco East Bay area (1960–1967). The primary goal was to identify key predictors—such as gestation, parity, age, height, weight, and smoking status—and develop a predictive model for birth weight.
+This project investigates the factors influencing infant birth weight using historical data from the San Francisco East Bay area (1960–1967). The primary goal was to identify key predictors-such as gestation, parity, age, height, weight and smoking status-and develop a predictive model for birth weight.
 
 ## Objectives
 * Find out influential factors on birth weight.
@@ -19,12 +19,12 @@ This project investigates the factors influencing infant birth weight using hist
     * `smoke`: Binary indicator for whether the mother smokes.
 
 ## Methodology
-1. **Descriptive Data Analysis:** Performed EDA using histograms, boxplots, and scatterplots to visualize relationships.
+1. **Descriptive Data Analysis:** Performed EDA using histograms, boxplots and scatterplots to visualize relationships.
 2. **Regression Analysis:** Utilized forward selection to build a multiple linear regression model.
 3. **Model Validation:** Checked for multicollinearity using Variance Inflation Factor (VIF) and performed residual analysis (Q-Q plots, residuals vs. fitted values).
 
 ## Key Findings
-* The final model incorporates `gestation`, `smoke`, `height`, `parity`, and `weight` as significant predictors.
+* The final model incorporates `gestation`, `smoke`, `height`, `parity` and `weight` as significant predictors.
 * The model achieved an adjusted $R^{2}$ of 0.2547, explaining approximately 25.79% of the variation.
 * Residual analysis confirmed the model meets linearity, constant variance, and normality assumptions.
 
@@ -35,5 +35,5 @@ This project investigates the factors influencing infant birth weight using hist
   [View the R Script](Infant_bwt_prediction_project/code/group3.R)
 
 ## Credits
-* **Authors:** D.G. Sandani Gunasekara, H.S.S. Perera, W.A.D. Fernando, J.B.A.A.Y. Dharmasena, O.S. Jayathunga.
+* **Authors:** W.A.D. Fernando, D.G. Sandani Gunasekara, H.S.S. Perera, J.B.A.A.Y. Dharmasena, O.S. Jayathunga.
 * **Data Source:** [Kaggle - Babies Birth Weight Dataset](https://www.kaggle.com/datasets/debjeetdas/babies-birth-weight).
