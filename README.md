@@ -29,8 +29,10 @@ This project investigates the factors influencing infant birth weight using hist
 * Residual analysis confirmed the model meets linearity, constant variance, and normality assumptions.
 
 ## Repository Contents
-* `report/`: Contains the full project documentation. View the [PDF Report](report/Infant_bwt_prediction_report.pdf).
-* `code/`: Contains the R scripts. View the [R Script](code/group3.R).
+* `report/`: Contains the full project documentation. 
+  [View the PDF Report](Infant_bwt_prediction_project/report/Infant_bwt_prediction_report.pdf)
+* `code/`: Contains the R scripts used for data processing and model fitting. 
+  [View the R Script](Infant_bwt_prediction_project/code/group3.R)
 
 ## Credits
 * **Authors:** D.G. Sandani Gunasekara, H.S.S. Perera, W.A.D. Fernando, J.B.A.A.Y. Dharmasena, O.S. Jayathunga.
